@@ -1,0 +1,366 @@
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: MAV
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.6, max_depth=4,
+                                            min_samples_split=5,
+                                            n_estimators=600, verbose=False))])|58.86|            6.89|            1.06
+Mean test Accuracy: 0.729 (0.063)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: AVP
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.6,
+                                            min_samples_split=5,
+                                            n_estimators=1150,
+                                            verbose=False))])|63.99|            8.76|            3.43
+Mean test Accuracy: 0.686 (0.075)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: SD
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(min_samples_split=4,
+                                            n_estimators=50, verbose=False))])|61.03|            7.59|            0.6
+Mean test Accuracy: 0.747 (0.105)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: SKEW
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(max_depth=4, min_samples_split=5,
+                                            n_estimators=1150,
+                                            verbose=False))])|44.13|            2.43|            3.16
+Mean test Accuracy: 0.296 (0.120)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: KURT
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.5,
+                                            min_samples_split=4,
+                                            n_estimators=50, verbose=False))])|41.06|            8.38|            0.64
+Mean test Accuracy: 0.358 (0.085)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: ZC
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=1.0, max_depth=4,
+                                            min_samples_split=5,
+                                            n_estimators=50, verbose=False))])|66.93|            6.5|            0.7
+Mean test Accuracy: 0.591 (0.092)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: MC
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.6, max_depth=4,
+                                            min_samples_split=4,
+                                            n_estimators=50, verbose=False))])|64.68|            10.43|            1.1
+Mean test Accuracy: 0.595 (0.040)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: entropy
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.9,
+                                            min_samples_split=5,
+                                            n_estimators=50, verbose=False))])|35.32|            5.66|            4.61
+Mean test Accuracy: 0.180 (0.052)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: n5
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(max_depth=4, min_samples_split=4,
+                                            n_estimators=50, verbose=False))])|60.98|            7.82|            1.47
+Mean test Accuracy: 0.558 (0.150)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: n25
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.2,
+                                            min_samples_split=5,
+                                            n_estimators=50, verbose=False))])|62.51|            9.7|            1.0
+Mean test Accuracy: 0.567 (0.122)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: n75
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.5, max_depth=4,
+                                            min_samples_split=5,
+                                            n_estimators=1700,
+                                            verbose=False))])|65.42|            5.12|            6.67
+Mean test Accuracy: 0.743 (0.156)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: n95
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.8, max_depth=4,
+                                            min_samples_split=5,
+                                            n_estimators=1700,
+                                            verbose=False))])|63.94|            8.67|            2.12
+Mean test Accuracy: 0.618 (0.054)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: median
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=1.0, max_depth=4,
+                                            min_samples_split=4,
+                                            n_estimators=1150,
+                                            verbose=False))])|48.44|            7.85|            1.51
+Mean test Accuracy: 0.365 (0.130)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: mean
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.5, max_depth=4,
+                                            min_samples_split=5,
+                                            n_estimators=1150,
+                                            verbose=False))])|36.75|            7.65|            1.68
+Mean test Accuracy: 0.255 (0.080)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: std
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.9, max_depth=4,
+                                            min_samples_split=5,
+                                            n_estimators=1700,
+                                            verbose=False))])|63.2|            7.54|            2.14
+Mean test Accuracy: 0.716 (0.092)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: var
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.5, max_depth=4,
+                                            min_samples_split=5,
+                                            n_estimators=1150,
+                                            verbose=False))])|62.49|            7.95|            1.66
+Mean test Accuracy: 0.677 (0.040)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: rms
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=1.0,
+                                            min_samples_split=4,
+                                            n_estimators=50, verbose=False))])|59.6|            5.81|            0.46
+Mean test Accuracy: 0.706 (0.098)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: EnergySubBand
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.5, max_depth=4,
+                                            min_samples_split=5,
+                                            n_estimators=1150,
+                                            verbose=False))])|64.68|            9.32|            1.79
+Mean test Accuracy: 0.636 (0.097)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: PercentageSubBand
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.4, max_depth=4,
+                                            min_samples_split=5,
+                                            n_estimators=1150,
+                                            verbose=False))])|51.59|            9.51|            2.17
+Mean test Accuracy: 0.468 (0.137)
+__________________________________________________________
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('standardscaler', StandardScaler()),
+                                       ('gradientboostingclassifier',
+                                        GradientBoostingClassifier(n_estimators=2000,
+                                                                   verbose=False))]),
+             param_grid=[{'gradientboostingclassifier__learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ]),
+                          'gradientboostingclassifier__max_depth': range(3, 5),
+                          'gradientboostingclassifier__min_samples_split': range(4, 6),
+                          'gradientboostingclassifier__n_estimators': range(50, 2050, 550)}],
+             scoring='accuracy')
+FEATURE: Energytot
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('gradientboostingclassifier',
+                 GradientBoostingClassifier(min_samples_split=5,
+                                            n_estimators=50, verbose=False))])|60.21|            9.44|            0.37
+Mean test Accuracy: 0.606 (0.107)
+__________________________________________________________

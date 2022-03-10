@@ -7,7 +7,7 @@ from numpy.linalg import matrix_power
 import scipy.fftpack as sc
 from scipy.fft import fft, ifft
 import time
-
+import matplotlib.pyplot as plt
 
 class SpectrumCalculus():
 
@@ -68,5 +68,6 @@ class SpectrumCalculus():
         for row in result:
             unique_list.extend(row)
         result = list(np.transpose(unique_list))
-
+        
         return result
+

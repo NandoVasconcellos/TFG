@@ -1,0 +1,40 @@
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: MAV | Score: 64.40677966101694
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: AVP | Score: 64.40677966101694
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: SD | Score: 59.32203389830508
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: SKEW | Score: 49.152542372881356
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: KURT | Score: 37.28813559322034
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: ZC | Score: 66.10169491525424
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: MC | Score: 64.40677966101694
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: entropy | Score: 35.59322033898305
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: n5 | Score: 69.49152542372882
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: n25 | Score: 71.1864406779661
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: n75 | Score: 66.10169491525424
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: n95 | Score: 67.79661016949152
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: median | Score: 37.28813559322034
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: mean | Score: 33.89830508474576
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: std | Score: 64.40677966101694
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: var | Score: 62.71186440677966
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: rms | Score: 64.40677966101694
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: EnergySubBand | Score: 62.71186440677966
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: PercentageSubBand | Score: 57.6271186440678
+RandomForestClassifier(max_depth=5, max_features=1, n_estimators=10)
+ FEATURE: Energytot | Score: 62.71186440677966

@@ -1,0 +1,122 @@
+array([0.69047619, 0.73170732])
+PAIR: [df_122, df_123] | FEATURE: MAV | Number of mislabeled points out of a total 36 points :  18
+array([0.61904762, 0.6097561 ])
+PAIR: [df_122, df_123] | FEATURE: AVP | Number of mislabeled points out of a total 36 points :  22
+array([0.69047619, 0.68292683])
+PAIR: [df_122, df_123] | FEATURE: SD | Number of mislabeled points out of a total 36 points :  19
+array([0.38095238, 0.36585366])
+PAIR: [df_122, df_123] | FEATURE: SKEW | Number of mislabeled points out of a total 36 points :  15
+array([0.42857143, 0.53658537])
+PAIR: [df_122, df_123] | FEATURE: KURT | Number of mislabeled points out of a total 36 points :  18
+array([0.78571429, 0.70731707])
+PAIR: [df_122, df_123] | FEATURE: ZC | Number of mislabeled points out of a total 36 points :  20
+array([0.69047619, 0.65853659])
+PAIR: [df_122, df_123] | FEATURE: MC | Number of mislabeled points out of a total 36 points :  20
+array([0.52380952, 0.51219512])
+PAIR: [df_122, df_123] | FEATURE: entropy | Number of mislabeled points out of a total 36 points :  19
+array([0.76190476, 0.63414634])
+PAIR: [df_122, df_123] | FEATURE: n5 | Number of mislabeled points out of a total 36 points :  18
+array([0.73809524, 0.68292683])
+PAIR: [df_122, df_123] | FEATURE: n25 | Number of mislabeled points out of a total 36 points :  8
+array([0.66666667, 0.70731707])
+PAIR: [df_122, df_123] | FEATURE: n75 | Number of mislabeled points out of a total 36 points :  9
+array([0.80952381, 0.75609756])
+PAIR: [df_122, df_123] | FEATURE: n95 | Number of mislabeled points out of a total 36 points :  8
+array([0.52380952, 0.43902439])
+PAIR: [df_122, df_123] | FEATURE: median | Number of mislabeled points out of a total 36 points :  7
+array([0.4047619 , 0.48780488])
+PAIR: [df_122, df_123] | FEATURE: mean | Number of mislabeled points out of a total 36 points :  21
+array([0.69047619, 0.68292683])
+PAIR: [df_122, df_123] | FEATURE: std | Number of mislabeled points out of a total 36 points :  19
+array([0.57142857, 0.65853659])
+PAIR: [df_122, df_123] | FEATURE: var | Number of mislabeled points out of a total 36 points :  22
+array([0.69047619, 0.73170732])
+PAIR: [df_122, df_123] | FEATURE: rms | Number of mislabeled points out of a total 36 points :  18
+array([0.61904762, 0.70731707])
+PAIR: [df_122, df_123] | FEATURE: EnergySubBand | Number of mislabeled points out of a total 36 points :  13
+array([0.61904762, 0.46341463])
+PAIR: [df_122, df_123] | FEATURE: PercentageSubBand | Number of mislabeled points out of a total 36 points :  23
+array([0.61904762, 0.73170732])
+PAIR: [df_122, df_123] | FEATURE: Energytot | Number of mislabeled points out of a total 36 points :  15
+
+array([0.7826087 , 0.73913043])
+PAIR: [df_122, df_127] | FEATURE: MAV | Number of mislabeled points out of a total 40 points :  15
+array([0.69565217, 0.80434783])
+PAIR: [df_122, df_127] | FEATURE: AVP | Number of mislabeled points out of a total 40 points :  17
+array([0.7826087 , 0.80434783])
+PAIR: [df_122, df_127] | FEATURE: SD | Number of mislabeled points out of a total 40 points :  15
+array([0.60869565, 0.58695652])
+PAIR: [df_122, df_127] | FEATURE: SKEW | Number of mislabeled points out of a total 40 points :  22
+array([0.52173913, 0.65217391])
+PAIR: [df_122, df_127] | FEATURE: KURT | Number of mislabeled points out of a total 40 points :  21
+array([0.73913043, 0.80434783])
+PAIR: [df_122, df_127] | FEATURE: ZC | Number of mislabeled points out of a total 40 points :  23
+array([0.7826087, 0.7173913])
+PAIR: [df_122, df_127] | FEATURE: MC | Number of mislabeled points out of a total 40 points :  23
+array([0.56521739, 0.56521739])
+PAIR: [df_122, df_127] | FEATURE: entropy | Number of mislabeled points out of a total 40 points :  22
+array([0.69565217, 0.7826087 ])
+PAIR: [df_122, df_127] | FEATURE: n5 | Number of mislabeled points out of a total 40 points :  14
+array([0.60869565, 0.63043478])
+PAIR: [df_122, df_127] | FEATURE: n25 | Number of mislabeled points out of a total 40 points :  14
+array([0.69565217, 0.63043478])
+PAIR: [df_122, df_127] | FEATURE: n75 | Number of mislabeled points out of a total 40 points :  15
+array([0.7173913, 0.7173913])
+PAIR: [df_122, df_127] | FEATURE: n95 | Number of mislabeled points out of a total 40 points :  20
+array([0.39130435, 0.58695652])
+PAIR: [df_122, df_127] | FEATURE: median | Number of mislabeled points out of a total 40 points :  22
+array([0.58695652, 0.56521739])
+PAIR: [df_122, df_127] | FEATURE: mean | Number of mislabeled points out of a total 40 points :  21
+array([0.7826087 , 0.80434783])
+PAIR: [df_122, df_127] | FEATURE: std | Number of mislabeled points out of a total 40 points :  15
+array([0.7826087 , 0.80434783])
+PAIR: [df_122, df_127] | FEATURE: var | Number of mislabeled points out of a total 40 points :  16
+array([0.7826087 , 0.73913043])
+PAIR: [df_122, df_127] | FEATURE: rms | Number of mislabeled points out of a total 40 points :  15
+array([0.80434783, 0.7826087 ])
+PAIR: [df_122, df_127] | FEATURE: EnergySubBand | Number of mislabeled points out of a total 40 points :  15
+array([0.60869565, 0.58695652])
+PAIR: [df_122, df_127] | FEATURE: PercentageSubBand | Number of mislabeled points out of a total 40 points :  18
+array([0.73913043, 0.80434783])
+PAIR: [df_122, df_127] | FEATURE: Energytot | Number of mislabeled points out of a total 40 points :  16
+
+array([0.85714286, 0.89583333])
+PAIR: [df_127, df_123] | FEATURE: MAV | Number of mislabeled points out of a total 42 points :  7
+array([0.81632653, 0.85416667])
+PAIR: [df_127, df_123] | FEATURE: AVP | Number of mislabeled points out of a total 42 points :  17
+array([0.87755102, 0.875     ])
+PAIR: [df_127, df_123] | FEATURE: SD | Number of mislabeled points out of a total 42 points :  14
+array([0.63265306, 0.64583333])
+PAIR: [df_127, df_123] | FEATURE: SKEW | Number of mislabeled points out of a total 42 points :  21
+array([0.6122449 , 0.54166667])
+PAIR: [df_127, df_123] | FEATURE: KURT | Number of mislabeled points out of a total 42 points :  21
+array([0.7755102 , 0.83333333])
+PAIR: [df_127, df_123] | FEATURE: ZC | Number of mislabeled points out of a total 42 points :  22
+array([0.71428571, 0.85416667])
+PAIR: [df_127, df_123] | FEATURE: MC | Number of mislabeled points out of a total 42 points :  22
+array([0.57142857, 0.54166667])
+PAIR: [df_127, df_123] | FEATURE: entropy | Number of mislabeled points out of a total 42 points :  23
+array([0.7755102 , 0.83333333])
+PAIR: [df_127, df_123] | FEATURE: n5 | Number of mislabeled points out of a total 42 points :  6
+array([0.85714286, 0.875     ])
+PAIR: [df_127, df_123] | FEATURE: n25 | Number of mislabeled points out of a total 42 points :  4
+array([0.87755102, 0.91666667])
+PAIR: [df_127, df_123] | FEATURE: n75 | Number of mislabeled points out of a total 42 points :  8
+array([0.81632653, 0.89583333])
+PAIR: [df_127, df_123] | FEATURE: n95 | Number of mislabeled points out of a total 42 points :  7
+array([0.63265306, 0.5       ])
+PAIR: [df_127, df_123] | FEATURE: median | Number of mislabeled points out of a total 42 points :  13
+array([0.57142857, 0.5625    ])
+PAIR: [df_127, df_123] | FEATURE: mean | Number of mislabeled points out of a total 42 points :  19
+array([0.87755102, 0.875     ])
+PAIR: [df_127, df_123] | FEATURE: std | Number of mislabeled points out of a total 42 points :  14
+array([0.81632653, 0.85416667])
+PAIR: [df_127, df_123] | FEATURE: var | Number of mislabeled points out of a total 42 points :  17
+array([0.85714286, 0.89583333])
+PAIR: [df_127, df_123] | FEATURE: rms | Number of mislabeled points out of a total 42 points :  7
+array([0.79591837, 0.875     ])
+PAIR: [df_127, df_123] | FEATURE: EnergySubBand | Number of mislabeled points out of a total 42 points :  12
+array([0.71428571, 0.60416667])
+PAIR: [df_127, df_123] | FEATURE: PercentageSubBand | Number of mislabeled points out of a total 42 points :  15
+array([0.7755102 , 0.83333333])
+PAIR: [df_127, df_123] | FEATURE: Energytot | Number of mislabeled points out of a total 42 points :  18

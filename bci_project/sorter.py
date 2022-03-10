@@ -49,21 +49,28 @@ class Sorter():
         return extracted_data
 
     def sorter_knn(self, test_data: list, train_data: list, k: int):
+        
         result = []
+        
         merged_train_data = [*train_data[0], *train_data[1], *train_data[2]]
+        
         df_train = pd.DataFrame.from_records(merged_train_data)
         df_train_unravel = pd.DataFrame()
+        
         df_train_unravel[
             [
                 str(i)
                 for i in range(len(df_train['data'].iloc[0]))
             ]
         ] = pd.DataFrame(df_train.data.to_list(), index=df_train.index)
+        
         for data in test_data:
+            
             subtracted = data['data']-df_train_unravel
             mathed = np.sqrt(subtracted.pow(2).sum(axis=1))
             df_mathed = mathed.to_frame(name='data')
             df_mathed['task'] = df_train['task'].values
+            
             result.append(
                 mode(
                     df_mathed
@@ -72,18 +79,24 @@ class Sorter():
                     .tolist()
                 )
             )
+            
         return result
 
     def data_spinner(self, k: int):
         temp = []
 
         for index, cluster in enumerate(self.data):
-            train_data = [data for i, data in enumerate(
-                self.data) if i != index]
+            
+            train_data = [data for i, data in enumerate(self.data) if i != index]
+            
             test_data = self.data[index]
+            
             result = self.sorter_knn(test_data, train_data, k)
+            
             df_test = pd.DataFrame.from_records(test_data)
+            
             prediction = sum(list(result == df_test['task']))
+            
             temp.append((prediction/len(result))*100)
 
         return {

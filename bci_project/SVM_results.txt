@@ -1,0 +1,100 @@
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: MAV | Best score: 0.6611111111111111 | Best estimator: SVC(C=100, gamma='auto', kernel='linear')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: AVP | Best score: 0.6542328042328043 | Best estimator: SVC(C=100, gamma=1, kernel='poly')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: SD | Best score: 0.6473544973544973 | Best estimator: SVC(C=1000, gamma='auto', kernel='linear')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: SKEW | Best score: 0.4121693121693121 | Best estimator: SVC(C=10, gamma=1, kernel='sigmoid')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: KURT | Best score: 0.44841269841269843 | Best estimator: SVC(C=10, gamma=0.02)
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: ZC | Best score: 0.7211640211640212 | Best estimator: SVC(C=10, gamma='auto')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: MC | Best score: 0.7132275132275133 | Best estimator: SVC(C=100, gamma=0.1, kernel='sigmoid')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: entropy | Best score: 0.38227513227513227 | Best estimator: SVC(C=1000, gamma=0.1, kernel='sigmoid')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: n5 | Best score: 0.6312169312169312 | Best estimator: SVC(C=0.01, gamma=1, kernel='poly')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: n25 | Best score: 0.6833333333333333 | Best estimator: SVC(C=1, gamma='auto', kernel='linear')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: n75 | Best score: 0.6542328042328043 | Best estimator: SVC(C=1, gamma='auto', kernel='poly')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: n95 | Best score: 0.6613756613756614 | Best estimator: SVC(C=1000, gamma=0.1)
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: median | Best score: 0.4261904761904761 | Best estimator: SVC(C=10, gamma=0.1, kernel='sigmoid')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: mean | Best score: 0.4052910052910052 | Best estimator: SVC(C=1000, gamma=1, kernel='poly')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: std | Best score: 0.6473544973544973 | Best estimator: SVC(C=1000, gamma='auto', kernel='linear')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: var | Best score: 0.6470899470899472 | Best estimator: SVC(C=100, gamma=1, kernel='poly')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: rms | Best score: 0.6611111111111111 | Best estimator: SVC(C=100, gamma='auto', kernel='linear')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: EnergySubBand | Best score: 0.6468253968253969 | Best estimator: SVC(C=0.1, gamma=1, kernel='poly')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: PercentageSubBand | Best score: 0.5150793650793651 | Best estimator: SVC(C=0.1, gamma=1, kernel='poly')
+GridSearchCV(estimator=SVC(),
+             param_grid=[{'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                          'gamma': ['auto', 1, 0.1, 0.02, 0.001],
+                          'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}])
+ FEATURE: Energytot | Best score: 0.5952380952380952 | Best estimator: SVC(C=1000, gamma='auto', kernel='poly')
